@@ -125,3 +125,9 @@ cd ..
 colcon build
 source install/setup.bash
 
+
+## 📽️ Demo
+
+[![Watch the video](https://www.youtube.com/watch?v=NgBpuVio_kE&ab_channel=rezaPirayeshshirazinezhad)
+
+This video shows 32 drones following predefined trajectories in Gazebo, visualized with goal and tail markers, using ROS 2 and the ros_gz bridge.
