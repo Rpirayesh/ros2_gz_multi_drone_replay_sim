@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="iris_drone">
+    <pose>0 0 1 0 0 0</pose>
+    <link name="base_link"/>
+    <include>
+      <uri>model://iris_drone/urdf/iris.urdf</uri>
+    </include>
+  </model>
+</sdf>

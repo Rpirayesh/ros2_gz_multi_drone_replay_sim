@@ -1,0 +1,22 @@
+# ROS 2 colcon build artifacts
+build/
+install/
+log/
+
+# Python cache
+*.pyc
+__pycache__/
+
+# ROS 2 launch/test files
+*.launch.py~
+*.test.py~
+
+# Compressed models
+*.tar.gz
+
+# IDE files
+.vscode/
+.idea/
+
+# OS junk
+.DS_Store

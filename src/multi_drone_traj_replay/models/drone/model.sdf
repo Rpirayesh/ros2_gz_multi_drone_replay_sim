@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<sdf version="1.8">
+  <model name="drone">
+    <!-- The drone is dynamic (moves) -->
+    <static>false</static>
+
+    <!-- Starting pose (origin) -->
+    <pose>0 0 0.5 0 0 0</pose>
+
+    <link name="base_link">
+      <pose>0 0 0 0 0 0</pose>
+
+      <!-- Inertial properties -->
+      <inertial>
+        <mass>1.0</mass>
+        <inertia>
+          <ixx>0.01</ixx>
+          <iyy>0.01</iyy>
+          <izz>0.02</izz>
+          <ixy>0.0</ixy>
+          <ixz>0.0</ixz>
+          <iyz>0.0</iyz>
+        </inertia>
+      </inertial>
+
+      <!-- Collision shape -->
+      <collision name="collision">
+        <geometry>
+          <sphere>
+            <radius>0.2</radius>
+          </sphere>
+        </geometry>
+      </collision>
+
+      <!-- Visual shape -->
+      <visual name="visual">
+        <geometry>
+          <sphere>
+            <radius>0.2</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <ambient>0 0 1 1</ambient>  <!-- Blue color -->
+          <diffuse>0 0 1 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+        </material>
+      </visual>
+
+    </link>
+  </model>
+</sdf>
