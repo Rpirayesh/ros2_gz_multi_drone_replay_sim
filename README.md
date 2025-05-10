@@ -7,7 +7,7 @@ This project simulates **multi-drone trajectory replay** in a 3D environment usi
 ## 🛰️ Features
 
 - 🧠 Trajectory replay for up to **32 drones**
-- 📁 Reads CSV file with `(timestep, agent_id, x, y, z, yaw)` format
+- 📁 Reads CSV file with `(timestep, agent_id, x, y, z, yaw, pitch)` format
 - 🌍 Custom Gazebo world with static obstacles
 - ⚙️ ROS 2 node to publish poses using `/world/default/set_pose` via `ros_gz`
 - 🎯 Tail and goal marker visualization through Gazebo model spawning
